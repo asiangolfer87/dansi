@@ -1,0 +1,45 @@
+{
+	"analytics-uuid": "d6027533-88f0-4302-a01e-8b87b5fc0cc9",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1639110295033
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112861534485879269743",
+		"email": "daniyalsidiki@gmail.com",
+		"email_verified": true,
+		"at_hash": "ghAFvBW4YtbkWcCGTEHbTA",
+		"iat": 1638599655,
+		"exp": 1638603255
+	},
+	"tokens": {
+		"expires_at": 1639115426806,
+		"refresh_token": "1//04g0XrEz8V-HLCgYIARAAGAQSNwF-L9Ire8WCWcmNT1Wp4V4_LBrj50ML0W4r53u5nOjcsQTZOpmNM1jtTvZ94mMNUNmlrbjgIDY",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0ARrdaM8E1XuPHnOaqOhx1w4M_zvujFHZySppe4y6ail5EX88Ud9ygnf4b6Y-mFGbUtR80Z7-w7R7epEofKkj7mniy9JsL8V4Ifhn_rUZCT4tcAvVqvzreuvUV-nV_hhDfXnbj_HWidBG7v21Do1gR3DGQlqHL1uq9Wu21g",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImMxODkyZWI0OWQ3ZWY5YWRmOGIyZTE0YzA1Y2EwZDAzMjcxNGEyMzciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyODYxNTM0NDg1ODc5MjY5NzQzIiwiZW1haWwiOiJkYW5peWFsc2lkaWtpQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiNGoydjFnS3hLQ1JqZmZiVnFuUWVjZyIsImlhdCI6MTYzOTExMTgyNCwiZXhwIjoxNjM5MTE1NDI0fQ.AjovpCoN9_4SjOEg1Gg4P-6e4QfxdKIGc4gbZDaqRVARTzApLemrp7XKg65F9ZnHlOCUF1-ZOQr4VERbX3UAv5U3wWVKJgGCM4jT5HTYAoBTvDEOyR_Humow1ewQsWFBDQFccmTs5pWaB-JIb0TW87KbxOMr_LSDwuf5YwyTxHMC1y-6IaPf7WeW3KMMFGuXX251ZXKSq2P-Eu8ggm9_JMOB_0uZ6Dhumm59cZUIHxmNMaUi2kY13NTAJmOLvB1KmpBSIFudjLexmeyL5IwOzjO9BPhBU-wDrQw7qw9lEfTuv7MRcU2_LhNwRt4ICniqrV2U45HVxP8zblrmSbwzmw"
+	},
+	"activeProjects": {
+		"C:\\Users\\dansi\\OneDrive\\Documents\\React\\Projects\\Robo-Friends": "robo-friends-109fe",
+		"C:\\Users\\dansi": "tesla-clone-7da13"
+	}
+}

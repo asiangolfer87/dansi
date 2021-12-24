@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="create-react-vscode" Version="1.1.0" Publisher="DennisVash"/>
+    <DisplayName>Create-React-VSCode IDE</DisplayName>
+    <Description xml:space="preserve">📦 Modern React.js Extension Pack 🎒</Description>
+    <Tags>React,React JS,Front End,Front End Extensions,React Extensions,react,React Pack,VScode,javascript</Tags>
+    <Categories>Extension Packs</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.13.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="DavidAnson.vscode-markdownlint,EditorConfig.EditorConfig,alefragnani.project-manager,bierner.github-markdown-preview,coenraads.bracket-pair-colorizer-2,dbaeumer.vscode-eslint,dennisvash.summer-time,eamodio.gitlens,esbenp.prettier-vscode,fabiospampinato.vscode-todo-plus,formulahendry.auto-close-tag,formulahendry.auto-rename-tag,jpoissonnier.vscode-styled-components,mikestead.dotenv,naumovs.color-highlight,pflannery.vscode-versionlens,streetsidesoftware.code-spell-checker,vitaliymaz.vscode-svg-previewer,wix.vscode-import-cost,wmaurer.vscode-jumpy,yzhang.markdown-all-in-one,zengxingxin.sort-js-object-keys,Tyriar.sort-lines" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/denvash/create-react-vscode.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/denvash/create-react-vscode.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/denvash/create-react-vscode.git" />
+        
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#2B303B" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    
+    <Icon>extension/images/create-react-vscode-logo-round.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/create-react-vscode-logo-round.png" Addressable="true" />
+  </Assets>
+</PackageManifest>

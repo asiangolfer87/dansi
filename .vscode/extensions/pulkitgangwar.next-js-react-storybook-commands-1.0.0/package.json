@@ -1,0 +1,94 @@
+{
+	"name": "next-js-react-storybook-commands",
+	"displayName": "Next.js/React/Storybook Commands",
+	"description": "commands to create nextjs,storybook,react components",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"publisher": "PulkitGangwar",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pulkitgangwar/Next.js-React-Storybook-Commands"
+	},
+	"icon": "assets/next.js-react-storybook-commands-logo.png",
+	"keywords": [
+		"nextjs",
+		"next.js",
+		"next-js",
+		"storybook",
+		"storybookjs",
+		"storybook-js",
+		"react",
+		"reactjs",
+		"react-js",
+		"react.js",
+		"react commands",
+		"storybook commands",
+		"nextjs commands",
+		"commands"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:nrs.createComponentInSrc",
+		"onCommand:nrs.createComponent",
+		"onCommand:nrs.createPageInSrc",
+		"onCommand:nrs.createPage",
+		"onCommand:nrs.createStorybookComponentInSrc",
+		"onCommand:nrs.createStorybookComponent"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "nrs.createComponentInSrc",
+				"title": "Create a component in src directory"
+			},
+			{
+				"command": "nrs.createComponent",
+				"title": "Create a component in root"
+			},
+			{
+				"command": "nrs.createPageInSrc",
+				"title": "Create a page in src directory"
+			},
+			{
+				"command": "nrs.createPage",
+				"title": "Create a page in root"
+			},
+			{
+				"command": "nrs.createStorybookComponentInSrc",
+				"title": "Create a Story in src directory"
+			},
+			{
+				"command": "nrs.createStorybookComponent",
+				"title": "Create a Story in root"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.49.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"eslint": "^7.6.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "881e6eb0-07f2-46c4-8ea4-0e948389dcb3",
+		"publisherId": "74adf96c-fd19-4352-9577-e5f63ca8065c",
+		"publisherDisplayName": "Pulkit Gangwar",
+		"installedTimestamp": 1632625276573
+	}
+}

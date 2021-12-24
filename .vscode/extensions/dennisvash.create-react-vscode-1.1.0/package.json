@@ -1,0 +1,63 @@
+{
+	"name": "create-react-vscode",
+	"displayName": "Create-React-VSCode IDE",
+	"description": "📦 Modern React.js Extension Pack 🎒",
+	"version": "1.1.0",
+	"publisher": "DennisVash",
+	"icon": "images/create-react-vscode-logo-round.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/denvash/create-react-vscode.git"
+	},
+	"galleryBanner": {
+		"color": "#2B303B",
+		"theme": "dark"
+	},
+	"keywords": [
+		"React",
+		"React JS",
+		"Front End",
+		"Front End Extensions",
+		"React Extensions",
+		"react",
+		"React Pack",
+		"VScode"
+	],
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionDependencies": [
+		"DavidAnson.vscode-markdownlint",
+		"EditorConfig.EditorConfig",
+		"alefragnani.project-manager",
+		"bierner.github-markdown-preview",
+		"coenraads.bracket-pair-colorizer-2",
+		"dbaeumer.vscode-eslint",
+		"dennisvash.summer-time",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"fabiospampinato.vscode-todo-plus",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"jpoissonnier.vscode-styled-components",
+		"mikestead.dotenv",
+		"naumovs.color-highlight",
+		"pflannery.vscode-versionlens",
+		"streetsidesoftware.code-spell-checker",
+		"vitaliymaz.vscode-svg-previewer",
+		"wix.vscode-import-cost",
+		"wmaurer.vscode-jumpy",
+		"yzhang.markdown-all-in-one",
+		"zengxingxin.sort-js-object-keys",
+		"Tyriar.sort-lines"
+	],
+	"__metadata": {
+		"id": "a453632b-940a-4212-bac8-4334917c1a61",
+		"publisherId": "25ec4f70-d74f-47f3-b8ae-07dfc78ca446",
+		"publisherDisplayName": "Dennis Vash",
+		"installedTimestamp": 1632625166266
+	}
+}

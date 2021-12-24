@@ -1,0 +1,48 @@
+{
+	"name": "ReactFlowSnippets",
+	"description": "Code snippets for React.js development with Flow Type support in ES6 syntax",
+	"version": "0.2.17",
+	"displayName": "React.js with Flow Types code snippets",
+	"publisher": "lsadam0",
+	"icon": "images/react.png",
+	"galleryBanner": {
+		"theme": "light"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lsadam0/vscode-react"
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1f02412f-f89e-4d08-afe8-f0d627de51ce",
+		"publisherId": "c2c4df7b-38c2-493d-9e56-28609e714fad",
+		"publisherDisplayName": "lsadam0",
+		"installedTimestamp": 1632625145813
+	}
+}

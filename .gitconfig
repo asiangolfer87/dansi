@@ -1,0 +1,12 @@
+[core]
+	editor = \"C:\\Users\\dansi\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[gui]
+	recentrepo = C:/Users/dansi/dan's project
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = daniel sidiki
+	email = dansidiki@live.com
